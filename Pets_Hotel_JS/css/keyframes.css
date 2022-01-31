@@ -1,0 +1,149 @@
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutOpacity {
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade1 {
+  0% {
+    color: var(--green);
+  }
+
+  20% {
+    color: var(--white);
+  }
+
+  40% {
+    color: var(--white);
+  }
+
+  60% {
+    color: var(--white);
+  }
+
+  80% {
+    color: var(--white);
+  }
+
+  100% {
+    color: var(--green);
+  }
+}
+
+@keyframes fade2 {
+  0% {
+    color: var(--white);
+  }
+
+  20% {
+    color: var(--green);
+  }
+
+  40% {
+    color: var(--white);
+  }
+
+  60% {
+    color: var(--white);
+  }
+
+  80% {
+    color: var(--white);
+  }
+
+  100% {
+    color: var(--white);
+  }
+}
+
+@keyframes fade3 {
+  0% {
+    color: var(--white);
+  }
+
+  20% {
+    color: var(--white);
+  }
+
+  40% {
+    color: var(--green);
+  }
+
+  60% {
+    color: var(--white);
+  }
+
+  80% {
+    color: var(--white);
+  }
+
+  100% {
+    color: var(--white);
+  }
+}
+
+@keyframes fade4 {
+  0% {
+    color: var(--white);
+  }
+
+  20% {
+    color: var(--white);
+  }
+
+  40% {
+    color: var(--white);
+  }
+
+  60% {
+    color: var(--green);
+  }
+
+  80% {
+    color: var(--white);
+  }
+
+  100% {
+    color: var(--white);
+  }
+}
+
+@keyframes fade5 {
+  0% {
+    color: var(--white);
+  }
+
+  20% {
+    color: var(--white);
+  }
+
+  40% {
+    color: var(--white);
+  }
+
+  60% {
+    color: var(--white);
+  }
+
+  80% {
+    color: var(--green);
+  }
+
+  100% {
+    color: var(--white);
+  }
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <title>Pets Hotel - place for your pet</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav>
+        <div class="links no-select">
+          <ul>
+            <li class="logo">
+              <a href="#header" class="scroll-link"
+                ><img src="img/logo.png" alt="Logo picture"
+              /></a>
+            </li>
+            <li><a href="#description" class="scroll-link">About us</a></li>
+            <li>
+              <a href="#prices" class="scroll-link">Prices and services</a>
+            </li>
+            <li>
+              <a href="#necessary-info" class="scroll-link">Necessaries</a>
+            </li>
+            <li class="conditions">T&#38;Cs</li>
+            <li><a href="#location" class="scroll-link">Contuct us</a></li>
+          </ul>
+        </div>
+        <div class="action">
+          <a href="tel:937994923">937 994 923</a>
+          <p class="no-select">San Francisco</p>
+        </div>
+        <div class="menu hide-button no-select">
+          <p>Menu</p>
+          <div>
+            <img src="icons/menu.png" alt="menu icon" class="menu-open" />
+            <img
+              src="icons/close-cross.png"
+              alt="close icon"
+              class="menu-close hide-btn"
+            />
+          </div>
+        </div>
+
+        <!-- <p class="innerwidth"></p> -->
+      </nav>
+      <div class="hero">
+        <div class="greeting no-select">
+          <h2>Pets <span>Hotel</span></h2>
+          <p>No worries <span>&#38;</span> Go travel!</p>
+          <p>Your pet in a safe place.</p>
+
+          <div class="button">
+            <a href="#gallery" class="scroll-link">Gallery</a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebar-menu no-select">
+          <ul class="menu-links">
+            <li>
+              <img src="./icons/step.png" alt="icon" /><a
+                href="#description"
+                class="scroll-link"
+                >About us</a
+              >
+            </li>
+            <li>
+              <img src="./icons/step.png" alt="icon" /><a
+                href="#prices"
+                class="scroll-link"
+                >Prices and services</a
+              >
+            </li>
+            <li>
+              <img src="./icons/step.png" alt="icon" /><a
+                href="#necessary-info"
+                class="scroll-link"
+                >Necessaries</a
+              >
+            </li>
+            <li>
+              <img src="./icons/step.png" alt="icon" />
+              <p class="subMenuCond">T&#38;Cs</p>
+            </li>
+            <li>
+              <img src="./icons/step.png" alt="icon" /><a
+                href="#location"
+                class="scroll-link"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="description" class="no-select">
+        <div class="desc-heading">
+          <h2>About us</h2>
+        </div>
+        <div class="desc-info">
+          <img src="img/logo.png" alt="logo" />
+
+          <p>
+            <span class="greenSpan">Pets</span>
+            <span class="blackSpan">Hotel</span> - the first pets hotel in San
+            Francisco with underfloor heating, ventilation and air purification
+            systems!
+          </p>
+          <p>
+            Here are the most comfortable and safe conditions for your tailed
+            friend to stay outside the home.
+          </p>
+          <p>
+            Planning a trip and can't take your pet with you? We are pleased to
+            take care of him!
+          </p>
+        </div>
+        <div class="desc-img">
+          <img src="img/welcome.webp" alt="dogs and cats" />
+        </div>
+      </section>
+
+      <section class="icons no-select"></section>
+
+      <section id="prices" class="no-select">
+        <div class="prices-heading">
+          <h2>Prices and services</h2>
+        </div>
+
+        <div class="prices-info">
+          <div class="pricelist">
+            <div class="dog-price pets pet-hover">
+              <div class="pet-icon">
+                <img src="icons/dog.png" alt="icon" />
+                <p>Dogs</p>
+              </div>
+              <div class="pet-price">
+                <div class="pet-accom">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime numquam corrupti officiis inventore unde omnis nam
+                    rerum quidem harum alias distinctio aut odit hic, dolores
+                    possimus quo enim illo doloribus?
+                  </p>
+                </div>
+                <div class="underline"></div>
+                <div class="pet-accom-price">
+                  <p>$50/day</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cat-price pets">
+              <div class="pet-icon">
+                <img src="icons/cat.png" alt="icon" />
+                <p>Cats</p>
+              </div>
+
+              <div class="pet-price">
+                <div class="pet-accom">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime numquam corrupti officiis inventore unde omnis nam
+                    rerum quidem harum alias distinctio aut odit hic, dolores
+                    possimus quo enim illo doloribus?
+                  </p>
+                </div>
+                <div class="underline"></div>
+                <div class="pet-accom-price">
+                  <p>$30/day</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="services">
+            <div class="serv-heading">
+              <h3>Other services</h3>
+            </div>
+            <div class="serv-info">
+              <div class="serv-one">
+                <p>
+                  <img src="icons/checked.png" alt="icon" />
+                  Grooming
+                </p>
+                <p>
+                  <img src="icons/checked.png" alt="icon" />
+                  SPA treatments
+                </p>
+              </div>
+              <div class="serv-two">
+                <p>
+                  <img src="icons/checked.png" alt="icon" />
+                  Animal Taxi
+                </p>
+                <p>
+                  <img src="icons/checked.png" alt="icon" />
+                  Training
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="no-select"></section>
+
+      <section id="necessary-info" class="no-select">
+        <div class="info-heading">
+          <h2>Check-in necessaries</h2>
+        </div>
+
+        <div class="info-stuff">
+          <ul>
+            <li class="li1">
+              <img src="icons/bone.png" alt="icon" />
+              <p>passport with vaccination marks</p>
+            </li>
+            <li class="li2">
+              <img src="icons/bone.png" alt="icon" />
+              <p>diapers <span class="small">(if necessary)</span></p>
+            </li>
+            <li class="li3">
+              <img src="icons/bone.png" alt="icon" />
+              <p>bowls for food and water</p>
+            </li>
+            <li class="li4">
+              <img src="icons/bone.png" alt="icon" />
+              <p>pet suplies <span class="small">(leash, collar)</span></p>
+            </li>
+            <li class="li5">
+              <img src="icons/bone.png" alt="icon" />
+              <p>mat <span class="small">(optional)</span></p>
+            </li>
+            <li class="li6">
+              <img src="icons/bone.png" alt="icon" />
+              <p>
+                toys and favorite stuff
+                <span class="small">(optional)</span>
+              </p>
+            </li>
+            <li class="li7">
+              <img src="icons/bone.png" alt="icon" />
+              <p>
+                animal feed
+                <span class="small">(calculated: +2 days to stay period)</span>
+              </p>
+            </li>
+            <li class="li8">
+              <img src="icons/bone.png" alt="icon" />
+              <p>pets delicacies</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="location">
+        <div class="location-heading no-select">
+          <h2>How to find us?</h2>
+        </div>
+        <div class="location-info">
+          <div class="address">
+            <div class="address-img no-select">
+              <img src="./img/location.webp" alt="location" />
+            </div>
+            <div class="address-info">
+              <p>San Francisco</p>
+              <p>498 Sanchez St</p>
+              <p><a href="tel:937994923">937 994 923</a></p>
+              <p>
+                <a
+                  href="mailto:petshotel@gmail.com?subject=Question&nbsp;about&nbsp;the&nbsp;necessaries"
+                  >petshotel@gmail.com</a
+                >
+              </p>
+              <div class="map no-select">
+                <a
+                  href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.2271854438877!2d-122.4329397846828!3d37.76127087976194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e1a31795555%3A0x30da5fa291d13efe!2s498%20Sanchez%20St%2C%20San%20Francisco%2C%20CA%2094114%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1643634838731!5m2!1spl!2spl"
+                  target="_blank"
+                  >Google Maps</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact no-select">
+            <div class="contact-heading">
+              <p>
+                We will be happy to answer all your questions and take care of
+                your pet!
+              </p>
+            </div>
+            <div class="contact-social">
+              <div class="social-heading">
+                <p>Find us also on</p>
+              </div>
+              <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="icons/facebook.png" alt="Facebook icon"
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="icons/instagram.png" alt="Instagram icon"
+                /></a>
+              </div>
+              <img class="social-dog" src="img/social.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- modals -->
+      <div class="modal-gallery">
+        <div class="gallery-container">
+          <button class="left-btn">
+            <img src="icons/left-arrow.png" alt="icon" />
+          </button>
+          <button class="right-btn">
+            <img src="icons/right-arrow.png" alt="icon" />
+          </button>
+          <button class="gallery-close-btn">
+            <img src="icons/close-cross.png" alt="icon" />
+          </button>
+        </div>
+      </div>
+      <div class="modal-conditions no-select">
+        <div class="conditions-container">
+          <div class="conditions-header">
+            <h2>General Terms and Conditions</h2>
+          </div>
+          <ul class="conditions-info">
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                before the settlement a superficial inspection of the animals
+                and a mandatory check of the veterinary passport for all
+                necessary vaccinations
+              </p>
+            </li>
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                animals without a veterinary passport or with pronounced
+                aggression towards people are not admitted to the hotel
+              </p>
+            </li>
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                vaccination not earlier than 21 days and not later than 1 year
+                before settling in the hotel
+              </p>
+            </li>
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                deworming not later than 45 days, treatment against
+                ectoparasites not earlier than 3 days
+              </p>
+            </li>
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                a prepayment of one day's stay at the hotel (cash or bank card)
+                is required for booking
+              </p>
+            </li>
+            <li>
+              <img src="icons/alert.png" alt="icon" />
+              <p>
+                if the booking is cancelled later than 5 days before the
+                check-in date, the booking fee will not be refunded
+              </p>
+            </li>
+          </ul>
+          <button class="cond-close-btn">
+            <img src="icons/close-cross.png" alt="icon" />
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
