@@ -1,4 +1,4 @@
-import {galleryPets, icons} from "./data.js"
+import { galleryPets, icons } from "./data.js";
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
@@ -6,7 +6,7 @@ const $$ = document.querySelectorAll.bind(document);
 const logo = $(".logo img");
 const nav = $("nav");
 const desc = $("#description");
-const iconsSection = $(".icons")
+const iconsSection = $(".icons");
 const price = $("#prices");
 const gallery = $("#gallery");
 const necStuff = $("#necessary-info");
@@ -34,7 +34,6 @@ const sidebar = $(".sidebar");
 
 const sections = new Array(desc, price, gallery, necStuff, contact);
 const scrollLinks = $$(".scroll-link");
-
 
 /* FUNCTIONS */
 
@@ -104,7 +103,6 @@ const showHide = () => {
   });
 };
 
-
 /* Pets containers hover */
 pets.forEach((pet) => {
   pet.addEventListener("mouseover", (e) => {
@@ -126,14 +124,15 @@ gallery.innerHTML = galleryPets
   })
   .join("");
 
-iconsSection.innerHTML = icons.map(icon=>{
-  const {img, txt} = icon;
-  return `<div class="icon-info">
+iconsSection.innerHTML = icons
+  .map((icon) => {
+    const { img, txt } = icon;
+    return `<div class="icon-info">
           <img src=${img} alt="icon" />
           <p>${txt}</p>
         </div>`;
-}).join('')
-
+  })
+  .join("");
 
 /* Modals */
 
@@ -178,10 +177,12 @@ const checkNr = () => {
 /* Conditions Modal and SideBar*/
 condConBtn.addEventListener("click", () => {
   modalCond.classList.add("open-con-modal");
+  document.body.classList.add("no-scrolling");
 });
 
 subMenuCondConBtn.addEventListener("click", () => {
   modalCond.classList.add("open-con-modal");
+  document.body.classList.add("no-scrolling");
   sidebar.classList.remove("sidebar-show");
   menuCloseBtn.classList.add("hide-btn");
   menuOpenBtn.classList.remove("hide-btn");
@@ -189,6 +190,7 @@ subMenuCondConBtn.addEventListener("click", () => {
 
 condCloseBtn.addEventListener("click", () => {
   modalCond.classList.remove("open-con-modal");
+  document.body.classList.remove("no-scrolling");
 });
 
 menuOpenBtn.addEventListener("click", () => {
@@ -239,8 +241,5 @@ window.addEventListener("resize", () => {
 /* Footer */
 $(
   "footer"
-).innerHTML = `<p>&copy; ${new Date().getFullYear()} Pets Hotel. All Rights Reserved. made by <a
-          href="https://github.com/Double-u-B"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Władysław Balandin</a></p> <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>`;
+).innerHTML = `<p>&copy; ${new Date().getFullYear()} Pets Hotel. All Rights Reserved.</p> 
+<div>made by <a href="https://github.com/Double-w-B" target="_blank" rel="noopener noreferrer">Władysław Balandin</a></div>`;

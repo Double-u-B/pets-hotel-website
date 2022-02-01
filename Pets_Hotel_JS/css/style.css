@@ -17,6 +17,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: var(--transition);
+  /* removes taps on mobile devices */
+  -webkit-tap-highlight-color: transparent;
 }
 
 ul {
@@ -83,6 +85,7 @@ nav {
 .greeting span {
   color: var(--dark-grey);
 }
+
 .greeting p span {
   color: var(--green);
   font-weight: bold;
@@ -966,6 +969,7 @@ ul li img {
   height: 100%;
   object-fit: cover;
 }
+
 .address-img iframe {
   border-radius: 0.2rem;
   opacity: 0;
@@ -1111,9 +1115,8 @@ footer div {
 }
 
 footer div a {
-  font-size: 0.6rem;
-  color: var(--grey);
-  font-family: inherit;
+  font-size: 0.8rem;
+  color: var(--green);
 }
 
 /* Extra classes*/
