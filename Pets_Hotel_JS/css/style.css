@@ -1125,6 +1125,11 @@ footer div a {
   font-size: 0.9rem;
 }
 
+a.pointer-events {
+  cursor: default;
+  pointer-events: none;
+}
+
 .action p.hide {
   opacity: 0;
 }

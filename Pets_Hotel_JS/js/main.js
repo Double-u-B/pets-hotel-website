@@ -65,10 +65,15 @@ const showHide = () => {
   const descHeight =
     desc.getBoundingClientRect().y -
     Math.round(nav.getBoundingClientRect().height);
+    
   /* Logo fade */
-  descHeight < 420 && descHeight > -380 && window.innerWidth > 1024
-    ? logo.classList.add("hide-logo")
-    : logo.classList.remove("hide-logo");
+  if (descHeight < 420 && descHeight > -380 && window.innerWidth > 1024) {
+    logo.classList.add("hide-logo");
+    logo.parentElement.classList.add("pointer-events");
+  } else {
+    logo.classList.remove("hide-logo");
+    logo.parentElement.classList.remove("pointer-events");
+  }
 
   /* City name fade*/
   window.pageYOffset > necStuff.getBoundingClientRect().y * 20
