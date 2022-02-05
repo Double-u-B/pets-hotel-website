@@ -121,7 +121,7 @@ nav {
 }
 
 .greeting .button *,
-.address-info .map * {
+.address-info .map-btn * {
   transition: none;
   height: 100%;
   width: 100%;
@@ -131,12 +131,12 @@ nav {
 }
 
 .greeting .button:active > *,
-.address-info .map:active {
+.address-info .map-btn:active {
   transform: translate(-1px, -1px);
 }
 
 .greeting .button:active,
-.address-info .map:active {
+.address-info .map-btn:active {
   box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
     -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
     inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
@@ -144,7 +144,7 @@ nav {
 }
 
 .greeting .button a,
-.address-info .map a {
+.address-info .map-btn a {
   color: var(--black);
   font-weight: bold;
 }
@@ -258,7 +258,7 @@ nav {
   transform: scale(0.5);
 }
 
-/* SIDEBAR */
+/*  ----------- SIDEBAR -----------  */
 .sidebar {
   position: fixed;
   top: 12vh;
@@ -317,12 +317,12 @@ nav {
   color: var(--green);
 }
 
-/* MAIN */
+/*  ----------- MAIN -----------  */
 main {
   width: 100%;
 }
 
-/* DESCRIPTION */
+/*  ----------- DESCRIPTION -----------  */
 
 #description {
   width: 100%;
@@ -391,7 +391,7 @@ main {
   color: var(--grey);
 }
 
-/* ICONS */
+/*  ----------- ICONS -----------  */
 
 .icons {
   width: 100%;
@@ -464,7 +464,7 @@ main {
   animation: fade5 7.5s infinite linear;
 }
 
-/* PRICES */
+/*  ----------- PRICES -----------  */
 
 #prices {
   width: 100%;
@@ -611,7 +611,7 @@ main {
   background-color: var(--green);
 }
 
-/* SERVICES */
+/*  ----------- SERVICES -----------  */
 
 #services {
   width: 100%;
@@ -661,7 +661,7 @@ main {
   color: var(--dark-grey);
 }
 
-/* GALLERY */
+/*  ----------- GALLERY -----------  */
 
 #gallery {
   padding: 20px;
@@ -692,7 +692,7 @@ main {
   transition: var(--transition);
 }
 
-/* GALLERY Modal */
+/*  ----------- GALLERY Modal -----------  */
 
 .modal-gallery,
 .modal-conditions {
@@ -714,7 +714,7 @@ main {
   z-index: -11;
 }
 
-/* OPEN/CLOSE MODAL */
+/*  ----------- OPEN/CLOSE MODAL -----------  */
 .open-gallery-modal {
   display: grid;
   z-index: 10;
@@ -725,7 +725,7 @@ main {
   z-index: 11;
 }
 
-/* Gallery Container */
+/*  ----------- Gallery Container -----------  */
 .gallery-container {
   border-radius: var(--border-radius);
   width: 45%;
@@ -749,8 +749,8 @@ main {
 .right-btn,
 .cond-close-btn {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: -2.5rem;
+  right: -2.5rem;
   background: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -790,7 +790,7 @@ main {
   transform: scale(1);
 }
 
-/* Conditions Container */
+/*  ----------- Conditions Container -----------  */
 .conditions-container {
   width: 80%;
   height: 80%;
@@ -837,7 +837,7 @@ main {
   width: 28px;
 }
 
-/* NECESSARIES*/
+/* ----------- NECESSARIES ----------- */
 
 #necessary-info {
   width: 100%;
@@ -919,7 +919,7 @@ ul li img {
   margin-right: 0.5rem;
 }
 
-/* LOCATION */
+/*  ----------- LOCATION -----------  */
 
 #location {
   width: 100%;
@@ -969,7 +969,7 @@ ul li img {
   height: 100%;
   object-fit: cover;
 }
-
+/* 
 .address-img iframe {
   border-radius: 0.2rem;
   opacity: 0;
@@ -984,7 +984,7 @@ ul li img {
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
-}
+} */
 
 .address-info {
   width: 100%;
@@ -1011,14 +1011,14 @@ ul li img {
   color: var(--dark-grey);
 }
 
-.address-info .map {
+.address-info .map-btn {
   margin: 1rem auto;
   border-radius: 0.5rem;
   width: 35%;
   height: 23%;
 }
 
-/* CONTACT */
+/*  ----------- CONTACT -----------  */
 
 .contact {
   width: 60%;
@@ -1119,7 +1119,7 @@ footer div a {
   color: var(--green);
 }
 
-/* Extra classes*/
+/*  ----------- Extra classes ----------- */
 
 .small {
   font-size: 0.9rem;

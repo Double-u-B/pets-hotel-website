@@ -945,6 +945,11 @@
     max-width: 90%;
   }
 
+  .gallery-close-btn {
+    right: 0;
+    top: -3rem;
+  }
+
   .close-btn {
     top: 0.8rem;
   }
@@ -959,11 +964,13 @@
   }
 
   .left-btn {
-    left: -2.5rem;
+    left: 25%;
+    bottom: -14.5rem;
   }
 
   .right-btn {
-    right: -2.5rem;
+    right: 25%;
+    bottom: -14.5rem;
   }
 
   #necessary-info {
@@ -1117,16 +1124,6 @@
   .gallery-container {
     height: 35%;
     width: 90%;
-  }
-
-  .left-btn {
-    left: 25%;
-    bottom: -14.5rem;
-  }
-
-  .right-btn {
-    right: 25%;
-    bottom: -14.5rem;
   }
 
   .gallery-close-btn img {
@@ -1305,7 +1302,7 @@
     width: 15px;
   }
 
-  .address-info .map {
+  .address-info .map-btn {
     height: 23%;
   }
 }
