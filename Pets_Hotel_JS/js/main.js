@@ -230,7 +230,7 @@ window.addEventListener("resize", () => {
     desc.getBoundingClientRect().y -
     Math.round(nav.getBoundingClientRect().height);
 
-  $(".width").innerText = `${window.innerWidth}px`;
+  // $(".width").innerText = `${window.innerWidth}px`;
 
   descHeight < 420 && descHeight > -380 && window.innerWidth > 1024
     ? logo.classList.add("hide-logo")
