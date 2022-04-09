@@ -750,7 +750,6 @@ main {
 .cond-close-btn {
   position: absolute;
   top: -2.5rem;
-  right: -2.5rem;
   background: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -770,6 +769,9 @@ main {
 .left-btn img,
 .right-btn img {
   width: 64px;
+}
+.gallery-close-btn {
+  right: -2.5rem;
 }
 
 .gallery-close-btn img {
@@ -832,7 +834,9 @@ main {
   height: 40px;
   transform: translateY(0px);
 }
-
+.cond-close-btn {
+  right: -2.5rem;
+}
 .cond-close-btn img {
   width: 28px;
 }
