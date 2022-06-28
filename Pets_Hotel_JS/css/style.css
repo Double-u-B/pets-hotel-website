@@ -130,7 +130,7 @@ nav {
   justify-content: center;
 }
 
-.greeting .button:active > *,
+.greeting .button:active>*,
 .address-info .map-btn:active {
   transform: translate(-1px, -1px);
 }
@@ -681,8 +681,15 @@ main {
   border: 1px solid var(--green);
 }
 
+.pic img {
+  -webkit-filter: grayscale(40%);
+  filter: grayscale(40%);
+}
+
 .pic:hover img {
   transform: scale(1.05);
+  -webkit-filter: none;
+  filter: none;
 }
 
 #gallery img {
@@ -770,6 +777,7 @@ main {
 .right-btn img {
   width: 64px;
 }
+
 .gallery-close-btn {
   right: -2.5rem;
 }
@@ -834,9 +842,11 @@ main {
   height: 40px;
   transform: translateY(0px);
 }
+
 .cond-close-btn {
   right: -2.5rem;
 }
+
 .cond-close-btn img {
   width: 28px;
 }
@@ -973,6 +983,7 @@ ul li img {
   height: 100%;
   object-fit: cover;
 }
+
 /* 
 .address-img iframe {
   border-radius: 0.2rem;
